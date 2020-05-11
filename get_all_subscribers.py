@@ -21,15 +21,15 @@ password.send_keys(loginInfo.password)
 
 time.sleep(1)
 
-giris_yap = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]")
+signinButton = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[4]")
 
-giris_yap.click()
+signinButton.click()
 
 time.sleep(6)
 
-kapat_bildirim = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[3]/button[2]")
+close_notif = browser.find_element_by_xpath("/html/body/div[4]/div/div/div[3]/button[2]")
 
-kapat_bildirim.click()
+close_notif.click()
 
 time.sleep(5)
 
