@@ -86,7 +86,7 @@ time.sleep(5)
 followingsList = []
 
 # In this case, div class of each follower is ".FPmhX.notranslate._0imsa".
-# This code block will detect all followings add it in a list which is "followings" in that case
+# This code block will detect all followings and add them in a list which is "followings" in that case
 
 followings = browser.find_elements_by_css_selector(".FPmhX.notranslate._0imsa")
 
