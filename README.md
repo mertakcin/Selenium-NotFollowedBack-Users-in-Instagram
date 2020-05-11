@@ -8,7 +8,7 @@ You need to install;
   * Selenium (pip install selenium)
   * Python
   
-In addition, you need to add the directory of geckodriver.exe(comes from extraction of zip file) to PATH variable. Otherwise, It won't work.
+In addition, you need to add the directory of geckodriver.exe(comes from the extraction of zip file) to PATH variable. Otherwise, It won't work.
 
 + loginInfo.py = You need to enter your username and password like;
 
