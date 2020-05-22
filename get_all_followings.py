@@ -12,7 +12,7 @@ browser.get("https://www.instagram.com/")
 
 time.sleep(2)
 
-# XPATH of username and password fields. If code does not work, make sure that you update the xpath of the fields.
+# XPATH of username and password fields. If code does not work, make sure that you updated the xpath of the fields.
 
 username = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input")
 password = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input")
@@ -32,7 +32,7 @@ signinButton.click()
 time.sleep(6)
 
 # In new version of Instagram web page, when you sign in, there is a notification that asks open notifications. This code block will click "not now" button.
-# If code does not work, make sure that you update all xpaths.
+# If code does not work, make sure that you updated all xpaths.
 
 close_notif = browser.find_element_by_xpath("/html/body/div[3]/div/div/div[3]/button[2]")
 
